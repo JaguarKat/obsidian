@@ -12,6 +12,7 @@ int main()
 	cout << "Enter the name of the second file: ";
 	string unde;
 	cin >> unde;
+	cout << "gae";
 	ofstream scrie(unde + ".argout");
 	system("pause");
 	return 0;
