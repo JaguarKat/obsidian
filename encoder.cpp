@@ -13,6 +13,13 @@ int main()
 	string unde;
 	cin >> unde;
 	ofstream scrie(unde + ".argout");
+	string linie;
+	getline(read, linie);
+	while (linie != NULL)
+	{
+		cout << linie << "\n";
+		getline(read, linie);
+	}
 	system("pause");
 	return 0;
 }
